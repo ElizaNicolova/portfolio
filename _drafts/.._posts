@@ -1,10 +1,3 @@
----
-layout: post
-title:  "Elitsa!"
-date:   2014-11-17 11:59:21
-categories:  update
----
-
 # Responsive Web Design
 ## by **Ethan Marcotte** • May 25, 2010
 
