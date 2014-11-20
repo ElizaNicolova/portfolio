@@ -2,7 +2,7 @@
  * Site header
  */
 .site-header {
-    border-top: 5px solid $grey-color-dark;
+   
     border-bottom: 1px solid $grey-color-light;
     min-height: 56px;
 
@@ -11,16 +11,31 @@
 }
 
 .site-title {
-    font-size: 26px;
-    line-height: 56px;
-    letter-spacing: -1px;
+    font-size: 50px;
+    line-height: 50px;
+    letter-spacing: 8px;
     margin-bottom: 0;
+    color: #fff;
+    text-align: center;
+    font-family: "Playfair Regular";
+    font-style: normal;
+
+    &:hover {
+    text-decoration: none;
+    }
+
+    .header-social {
+    display: inline-block;
     float: left;
+    }
 
     &,
     &:visited {
         color: $grey-color-dark;
     }
+}
+.home {
+    float:left;
 }
 
 .site-nav {
@@ -193,6 +208,11 @@
 /**
  * Posts
  */
+ .post {
+ font-family: "Lucida Grande", "Lucida Sans Unicode", Tahoma, Verdana, sans-serif;
+ text-align: left;
+ }
+ 
 .post-header {
     margin-bottom: $spacing-unit;
 }
